@@ -22,7 +22,7 @@ function timeCounter() {
       timer.value = `Time over`;
       timer.style.fontSize = `20px`;
       if (counter__nums !== 0) {
-        alert("시간초과, 당신의 패배입니다.");
+        prompt("😭😛시간초과, 당신의 패배입니다.😛😭");
       }
     }
   }, 10000);
