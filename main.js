@@ -251,7 +251,7 @@ play__btn.addEventListener("click", () => {
   randomPosition();
   setTimeout(() => {
     play__btn.style.pointerEvents = "all";
-  }, 13000);
+  }, 10000);
 });
 toIntro__btn.addEventListener("click", () => {
   guidance.classList.remove("turn-out");
