@@ -32,7 +32,7 @@ function timeCounter() {
     timer.style.fontSize = "15px";
     timer.style.fontWeight = "bold";
     field.style.display = "none";
-  }, 12000);
+  }, 10500);
 }
 
 const field = document.querySelector(".field");
