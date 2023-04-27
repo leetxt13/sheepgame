@@ -25,7 +25,7 @@ function timeCounter() {
         prompt("😭😛시간초과, 당신의 패배입니다.😛😭");
       }
     }
-  }, 10000);
+  }, 9800);
 
   setTimeout(() => {
     timer.value = `시작을 누르세요`;
