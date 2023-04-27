@@ -25,14 +25,14 @@ function timeCounter() {
         prompt("😭😛시간초과, 당신의 패배입니다.😛😭");
       }
     }
-  }, 9800);
+  }, 10000);
 
   setTimeout(() => {
     timer.value = `시작을 누르세요`;
     timer.style.fontSize = "15px";
     timer.style.fontWeight = "bold";
     field.style.display = "none";
-  }, 9850);
+  }, 10200);
 }
 
 const field = document.querySelector(".field");
