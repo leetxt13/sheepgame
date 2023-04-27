@@ -104,6 +104,8 @@ guidance__btn.addEventListener("click", () => {
   field.removeChild(img17);
   field.removeChild(img18);
   field.removeChild(img19);
+  field.removeChild(img20);
+  field.removeChild(img21);
   imgs = document.querySelectorAll("img[alt='sheep']");
   counter__nums = imgs.length;
 });
@@ -224,6 +226,18 @@ guidance__btn2.addEventListener("click", () => {
   img19.setAttribute("data-species", "devil");
   img19.setAttribute("alt", "devil");
   field.appendChild(img19);
+  let img20 = document.createElement("img");
+  img20.setAttribute("src", "carrot/img/sheep.png");
+  img20.setAttribute("id", `sheep`);
+  img20.setAttribute("data-species", "sheep");
+  img20.setAttribute("alt", "sheep");
+  field.appendChild(img20);
+  let img21 = document.createElement("img");
+  img21.setAttribute("src", "carrot/img/sheep.png");
+  img21.setAttribute("id", `sheep`);
+  img21.setAttribute("data-species", "sheep");
+  img21.setAttribute("alt", "sheep");
+  field.appendChild(img21);
 
   imgs = document.querySelectorAll("img[alt='sheep']");
   counter__nums = imgs.length;
