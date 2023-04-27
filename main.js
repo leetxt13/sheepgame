@@ -21,8 +21,8 @@ function timeCounter() {
     if (sec === 0) {
       timer.value = `Time over`;
       timer.style.fontSize = `20px`;
-      if (count__nums !== 0) {
-        prompt("시간초과, 당신의 패배입니다. '내가 졌다' 세번 쓰십시오.");
+      if (counter__nums !== 0) {
+        alert("시간초과, 당신의 패배입니다.");
       }
     }
   }, 10000);
@@ -89,6 +89,13 @@ guidance__btn.addEventListener("click", () => {
   field.removeChild(img2);
   field.removeChild(img3);
   field.removeChild(img4);
+  field.removeChild(img5);
+  field.removeChild(img6);
+  field.removeChild(img7);
+  field.removeChild(img8);
+  field.removeChild(img9);
+  field.removeChild(img10);
+  field.removeChild(img11);
   imgs = document.querySelectorAll("img[alt='sheep']");
   counter__nums = imgs.length;
 });
@@ -119,6 +126,49 @@ guidance__btn2.addEventListener("click", () => {
   img4.setAttribute("data-species", "devil");
   img4.setAttribute("alt", "devil");
   field.appendChild(img4);
+  let img5 = document.createElement("img");
+  img5.setAttribute("src", "carrot/img/devill2.png");
+  img5.setAttribute("id", `devil`);
+  img5.setAttribute("data-species", "devil");
+  img5.setAttribute("alt", "devil");
+  field.appendChild(img5);
+  let img6 = document.createElement("img");
+  img6.setAttribute("src", "carrot/img/devill2.png");
+  img6.setAttribute("id", `devil`);
+  img6.setAttribute("data-species", "devil");
+  img6.setAttribute("alt", "devil");
+  field.appendChild(img6);
+  let img7 = document.createElement("img");
+  img7.setAttribute("src", "carrot/img/sheep.png");
+  img7.setAttribute("id", `sheep`);
+  img7.setAttribute("data-species", "sheep");
+  img7.setAttribute("alt", "sheep");
+  field.appendChild(img7);
+  let img8 = document.createElement("img");
+  img8.setAttribute("src", "carrot/img/sheep.png");
+  img8.setAttribute("id", `sheep`);
+  img8.setAttribute("data-species", "sheep");
+  img8.setAttribute("alt", "sheep");
+  field.appendChild(img8);
+  let img9 = document.createElement("img");
+  img9.setAttribute("src", "carrot/img/sheep.png");
+  img9.setAttribute("id", `sheep`);
+  img9.setAttribute("data-species", "sheep");
+  img9.setAttribute("alt", "sheep");
+  field.appendChild(img9);
+  let img10 = document.createElement("img");
+  img10.setAttribute("src", "carrot/img/devill2.png");
+  img10.setAttribute("id", `devil`);
+  img10.setAttribute("data-species", "devil");
+  img10.setAttribute("alt", "devil");
+  field.appendChild(img10);
+  let img11 = document.createElement("img");
+  img11.setAttribute("src", "carrot/img/sheep.png");
+  img11.setAttribute("id", `sheep`);
+  img11.setAttribute("data-species", "sheep");
+  img11.setAttribute("alt", "sheep");
+  field.appendChild(img11);
+
   imgs = document.querySelectorAll("img[alt='sheep']");
   counter__nums = imgs.length;
 });

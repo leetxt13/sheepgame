@@ -156,12 +156,13 @@ button {
     width: 150px;
     font-size: 15px;
   }
+
   .whole__screen {
     width: 100%;
   }
   .control__box,
   .control__box.show-up {
-    width: 200px;
+    width: 300px;
   }
   h2 {
     font-size: 29px;
